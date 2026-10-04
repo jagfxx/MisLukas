@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center ">
       <main className="flex flex-col items-center justify-center gap-4">
-          <h1 className="text-4xl font-bold">MisLukas</h1>
           <button onClick={handleLogin} className="border border-white w-full text-white p-2 rounded-md hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">Login</button>
           <button onClick={handleRegister} className="border border-white w-full text-white p-2 rounded-md hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">Register</button>
        </main>
